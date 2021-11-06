@@ -1,0 +1,67 @@
+.tbody {
+    background-color: gray;
+  }
+  * {
+      box-sizing: border-box;
+    }
+    
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      margin: 150px;
+    }
+    
+    #section {
+      display: -webkit-flex;
+      display: flex;
+    }
+    
+    nav {
+      -webkit-flex: 1;
+      -ms-flex: 1;
+      flex: 1;
+      background: #ccc;
+      padding: 40px;
+    }
+  
+    #nama {
+        font-family: Verdana;
+        font-size: 25px;
+        color: black;
+        opacity: 80%;
+    }
+  
+    h2 {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      opacity: 75%;
+    }
+  
+    article {
+      -webkit-flex: 3;
+      -ms-flex: 3;
+      flex: 3;
+      background-color: #f1f1f1;
+      padding:40px;
+    }
+    
+    #p1 {
+      font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+      opacity: 85%;
+    }
+    #p2{
+      font-family: Georgia, 'Times New Roman', Times, serif;
+      opacity: 85%;
+    }
+  
+    @media (max-width: 600px) {
+      section {
+        -webkit-flex-direction: column;
+        flex-direction: column;
+      }
+    }
+  
+    h3 {
+      opacity: 95%;
+    }
+    h5 {
+      opacity: 90%;
+    }
